@@ -1,0 +1,12 @@
+///Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
+
+Algoritmo Nombre_saludo
+	
+	Definir su_nombre Como Caracter
+	
+	Escribir "Ingrese su nombre: ";
+	Leer su_nombre
+	
+	Escribir "Hola! ", su_nombre, " es un gusto saludarte.";
+	
+FinAlgoritmo
