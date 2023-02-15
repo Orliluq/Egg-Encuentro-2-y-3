@@ -1,0 +1,18 @@
+///Calcular el cambio de monedas en dólares y euros al ingresar cierta cantidad de dinero en 
+///pesos.
+
+Algoritmo Cambio_monedas
+	
+	Definir dolar, euros, pesos Como Real
+	Escribir "Ingrese la cantidad en pesos: ";
+	Leer pesos
+	
+	//FORMULAS
+	dolar = (pesos / 185.03);
+	euros = (pesos / 201.96);
+	
+	//RESULTADO
+	Escribir "El monto en dólares es: ", dolar
+	Escribir "El monto en euros es: ", euros  
+	
+FinAlgoritmo
