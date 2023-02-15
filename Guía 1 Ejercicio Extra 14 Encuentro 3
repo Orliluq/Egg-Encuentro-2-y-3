@@ -1,0 +1,19 @@
+/// Dado un número de dos cifras, diseñe un algoritmo que permita obtener el número
+/// invertido. Ejemplo, si se introduce 23 que muestre 32.
+
+Algoritmo Numero_Invertido
+	
+	Definir num, ni, digito Como Entero
+	Escribir "Ingrese un número de dos cifras: ";
+	Leer num;
+	ni = 0;
+	
+	Mientras num <> 0 Hacer
+		digito = num % 10;
+		ni = (ni * 10) + digito;
+		num = trunc(num / 10);
+	Fin Mientras
+	
+	Escribir "El número invertido es: " ni
+	
+FinAlgoritmo
