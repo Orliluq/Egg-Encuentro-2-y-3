@@ -1,0 +1,15 @@
+///Hacer un programa que calcule el salario de un empleado, si se descuenta el 20% de su 
+///salario bruto.
+
+Algoritmo Salario_de_un_empleado
+	
+	Definir salario, salarioFinal, descuento Como Real
+	Escribir "Ingrese el salario del empleado: ";
+	Leer salario
+	
+	descuento = salario * (20/100);
+	salarioFinal = salario-descuento;
+	
+	Escribir "El salario del empleado luego del descuento es: ", (salarioFinal);
+	
+FinAlgoritmo
