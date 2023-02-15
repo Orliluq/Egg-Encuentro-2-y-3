@@ -1,0 +1,30 @@
+/// Un alumno desea saber cuál será su calificación final en la materia de Algoritmos. Dicha
+/// calificación se compone de los siguientes porcentajes:
+/// a. 55% del promedio de sus tres calificaciones parciales.
+/// b. 30% de la calificación del examen final.
+/// c. 15% de la calificación de un trabajo final.
+
+Algoritmo Calificacion_Final
+	
+	Definir examenf, parcial1, parcial2, parcial3 Como Real
+	Definir trabajof, promedioParcial, calificacionFinal Como Real
+	
+	Escribir "Ingresa la calificación del examen final: ";
+    Leer examenf;
+    Escribir "Ingresa la calificación del parcial 1: ";
+    Leer parcial1;
+    Escribir "Ingresa la calificación del parcial 2: ";
+    Leer parcial2;
+    Escribir "Ingresa la calificación del parcial 3: ";
+    Leer parcial3;
+    Escribir "Ingresa la calificación del trabajo final: ";
+    Leer trabajof;
+    
+	promedioParcial = (parcial1+parcial2+parcial3)/3;
+    calificacionFinal = (promedioParcial*0.55)+(examenf*0.3)+(trabajof*0.15);
+    
+	Escribir "La calificación final es: ", calificacionFinal;
+    Escribir "El promedio parcial es: ", promedioParcial;
+	
+	
+FinAlgoritmo
