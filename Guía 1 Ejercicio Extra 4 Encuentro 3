@@ -1,0 +1,18 @@
+///Hacer un programa que ingrese por teclado un número total de segundos y que luego 
+///pueda mostrar la cantidad de horas, minutos y segundos que existen en el valor ingresado.
+
+Algoritmo Conversion_horas_minutos_segundos
+	
+	Definir h, m, s Como Real
+	Escribir "Ingrese un número en segundos: " ;
+	Leer s
+	
+	h = s / 3600; 
+	m = s / 60; 
+	
+	//PROCESO
+	Escribir " El total de Horas es: " , h;
+	Escribir " El total de Minutos es: ", m;
+	Escribir " El total de Segundos es: ", s;
+	
+FinAlgoritmo
