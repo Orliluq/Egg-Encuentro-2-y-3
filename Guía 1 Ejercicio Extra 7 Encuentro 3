@@ -1,0 +1,22 @@
+///Mostrar el área y perímetro de un paralelogramo
+
+Algoritmo Paralelogramo
+	
+	Definir ladoA, ladoB, area, perimetro, base, altura Como Real
+	Escribir "Ingrese el valor del lado A: ";
+	Leer ladoA
+	Escribir "Ingrese el valor del lado B: ";
+	Leer ladoB
+	
+	perimetro = 2*(ladoA + ladoB);
+	Escribir "El perímetro del paralelogramo es: ", perimetro;
+	
+	Escribir "Ingrese el valor de la base: ";
+	Leer base
+	Escribir "Ingrese el valor de la altura: ";
+	Leer altura
+	
+	area = (base * altura); 
+	Escribir "El área del paralelogramo es: ", area;
+	
+FinAlgoritmo
