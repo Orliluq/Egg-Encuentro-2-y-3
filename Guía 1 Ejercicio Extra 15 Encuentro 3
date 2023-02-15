@@ -1,0 +1,27 @@
+/// Un ciclista parte de una ciudad A a las HH horas, MM minutos y SS segundos. El tiempo
+/// de viaje hasta llegar a otra ciudad B es de T segundos. Escribir un algoritmo que
+/// determine la hora de llegada a la ciudad B.
+
+Algoritmo Ciclista_hora_llegada
+	
+	Definir hora_partida, min_partida, seg_partida, seg_inicial, seg_final Como Entero;
+	Definir seg_viaje, hora_llegada, min_llegada, seg_llegada Como Entero
+	Escribir "Ingrese la hora de partida de la ciudad A: ";
+	Leer hora_partida;
+	Escribir "Ingrese los minutos de partida de la ciudad A: ";
+	Leer min_partida;
+	Escribir "Ingrese los segundos de partida de la ciudad A: ";
+	Leer seg_partida;
+	Escribir "Ingrese el tiempo que el ciclista ha tardado en segundos: ";
+	Leer seg_viaje;
+	
+	seg_inicial = (hora_partida * 3600) + (min_partida * 60) + seg_partida;
+	seg_final = seg_inicial + seg_viaje;
+	hora_llegada = trunc(seg_final / 3600);
+	min_llegada = trunc((seg_final % 3600) / 60);
+	seg_llegada = (seg_final % 3600) % 60;
+	
+	Escribir "La hora de llegada del ciclista a la ciudad B es: ";
+	Escribir hora_llegada,":", min_llegada,":", seg_llegada;	
+	
+FinAlgoritmo
