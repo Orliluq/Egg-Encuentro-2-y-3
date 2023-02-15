@@ -1,0 +1,22 @@
+//Mostrar el área y perímetro de un rombo.
+
+Algoritmo Area_y_perimetro_rombo
+	
+	Definir area, perimetro, rombo, diametroMayor, diametroMenor, lado Como Real
+    Escribir "Escribir Diametro Mayor: ";
+    Leer diametroMayor
+    Escribir "Escribir diametro menor: ";
+    Leer diametroMenor
+    
+	area = (diametroMayor*diametroMenor)/2 ;
+    
+	Escribir "El área del rombo es: ", area;
+    
+	Escribir "Escribir lado del rombo: ";
+	Leer lado
+	
+    perimetro = (4*lado);
+    Escribir "El Perímetro del rombo es: ", perimetro;
+	
+	
+FinAlgoritmo
