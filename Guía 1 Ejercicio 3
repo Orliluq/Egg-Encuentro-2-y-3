@@ -1,0 +1,22 @@
+///A partir de una conocida cantidad de metros que el usuario ingresa a través del teclado se
+///debe obtener su equivalente en centímetros, en milímetros y en pulgadas.
+///Ayuda: 1 pulgada equivale a 2.54 centímetros.
+
+Algoritmo Equivalentes
+	Definir metros, centimetros, milimetros, pulgadas Como Real
+	Escribir "Ingrese los metros que desea su equivalente: ";
+	Leer metros
+	
+	//Proceso
+	centimetros = 100 * metros
+	milimetros = 1000 * metros
+	pulgadas = 2.54 * centimetros
+	
+	Escribir "Ingrese un numero en centimetros : " (centimetros)
+	Escribir "Ingrese un numero en milimetros : " (milimetros)
+	Escribir "Ingrese un numero en pulgadas : " (pulgadas)
+
+	
+	
+	
+FinAlgoritmo
