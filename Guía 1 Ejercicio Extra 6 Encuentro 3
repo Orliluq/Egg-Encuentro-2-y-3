@@ -1,0 +1,23 @@
+///Mostrar el área y perímetro de un hexágono.
+
+Algoritmo Hexagono
+	Definir area, perimetro, hex, ap, lado Como Real
+    
+	Escribir "Escribir el lado del Hexágono: ";
+    Leer lado
+    
+	//PROCESO
+	perimetro = 6 * lado
+    
+	Escribir "El perímtero del Hexágono es: ", perimetro " cm^2"
+	
+	Escribir "Escribir el Área del Hexágono: ";
+	Leer area
+    Escribir "Escribir el Apotema: ";
+    Leer ap
+    area = (perimetro * ap)/2;
+	
+	Escribir "El área del Hexágono es: ", area " cm^2"
+    
+	
+FinAlgoritmo
