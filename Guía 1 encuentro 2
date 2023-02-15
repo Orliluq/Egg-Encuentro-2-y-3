@@ -1,0 +1,19 @@
+///Conocido el número en matemática PI n, pedir al usuario que ingrese el valor del radio de una circunsferencia
+///y calcular y mostrar por pantalla el área y perímetro. Recuerde que para calcular el área y el perímetro se utilizan
+///las siguientes fórmulas:
+
+Algoritmo AreaYPerimetro
+	
+	Definir radio, perimetro, area Como Real
+	Escribir PI
+	
+	Escribir "Ingrese el valor del radio: ";
+	Leer radio
+	
+	area = PI * radio^2;
+	Escribir "El resultado del area de la circunsferencia es igual a:  " (area);
+	
+	perimetro = 2 * PI * radio; 
+	Escribir "El resultado del perimetro de la circunsferencia es igual a: " (perimetro);
+	
+FinAlgoritmo
