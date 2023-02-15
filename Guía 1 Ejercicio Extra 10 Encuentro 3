@@ -1,0 +1,16 @@
+///Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea
+///saber cuánto deberá pagar finalmente por su compra.
+
+Algoritmo Descuento_sobre_la_compra
+	
+	Definir tot, desc Como Real
+	Escribir "Escribe el total de la compra: ";
+	leer tot
+	
+	desc = tot * .15
+	
+	Escribir "El descuento que se aplicó es: $", desc
+	Escribir "El total a pagar por el cliente es: $", tot - desc
+	
+	
+FinAlgoritmo
