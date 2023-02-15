@@ -1,0 +1,17 @@
+///Crear un programa que solicite al usuario que ingrese el precio de un producto al inicio del 
+///año, y el precio del mismo producto al finalizar el año. El programa debe calcular cuál fue el 
+///porcentaje de aumento que tuvo ese producto en el año y mostrarlo por pantalla.
+
+Algoritmo Precio_de_un_producto
+	Definir precioI, precioF, porcentaje Como Real
+	Escribir "Cuál fue el precio Inicial del producto?: "
+	Leer precioI
+	Escribir "Cuál fue el precio Final del producto?; "
+	Leer precioF
+	
+	porcentaje = (precioF - precioI) * 100/ precioI
+	
+	Escribir "El porcentaje de aumento del precio en el producto fue de: ", (porcentaje), "%";
+	
+	
+FinAlgoritmo
